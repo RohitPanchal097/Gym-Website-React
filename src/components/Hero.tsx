@@ -156,7 +156,7 @@ export const Hero = () => {
 
         <motion.div 
           ref={buttonsRef}
-          className="flex flex-col sm:flex-row gap-4 sm:gap-6 mb-12 sm:mb-16 w-full max-w-md sm:max-w-none px-4"
+          className="flex flex-col sm:flex-row gap-4 sm:gap-6 mb-12 sm:mb-16 w-full max-w-md sm:max-w-none px-4 justify-center items-center mx-auto"
         >
           <motion.button 
             className="group relative px-6 sm:px-8 lg:px-10 py-4 sm:py-5 bg-gradient-to-r from-red-600 to-red-500 text-white font-black text-lg sm:text-xl rounded-lg overflow-hidden w-full sm:w-auto"
